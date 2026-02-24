@@ -9,16 +9,13 @@
 
 <body>
 
-    <!-- ENCABEZADO -->
     <header>
         <h1>Dylan Cotera</h1>
         <p class="subtitle">Desarrollador Backend JavaScript en formación</p>
     </header>
 
-    <!-- CONTENIDO PRINCIPAL -->
     <main>
 
-        <!-- PERFIL -->
         <section>
             <h2>Perfil</h2>
             <p>
@@ -28,55 +25,60 @@
             </p>
         </section>
 
-        <!-- TECNOLOGÍAS -->
         <section>
             <h2>Tecnologías</h2>
 
-            <h3>Backend</h3>
-            <ul>
-                <li>JavaScript</li>
-                <li>Node.js</li>
-                <li>Express</li>
-                <li>Sequelize</li>
-                <li>SQLite</li>
-            </ul>
+            <div class="tech-grid">
+                <div class="card">
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>JavaScript</li>
+                        <li>Node.js</li>
+                        <li>Express</li>
+                        <li>Sequelize</li>
+                        <li>SQLite</li>
+                    </ul>
+                </div>
 
-            <h3>Frontend</h3>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>React (nivel académico)</li>
-            </ul>
+                <div class="card">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>React (nivel académico)</li>
+                    </ul>
+                </div>
 
-            <h3>Herramientas</h3>
-            <ul>
-                <li>Git</li>
-                <li>Swagger</li>
-                <li>Postman</li>
-                <li>Docker</li>
-            </ul>
+                <div class="card">
+                    <h3>Herramientas</h3>
+                    <ul>
+                        <li>Git</li>
+                        <li>Swagger</li>
+                        <li>Postman</li>
+                        <li>Docker</li>
+                    </ul>
+                </div>
+            </div>
         </section>
 
-        <!-- PROYECTOS -->
         <section>
             <h2>Proyecto Destacado</h2>
 
-            <article>
+            <article class="project-card">
                 <h3>UnaHur - Red Anti-Social</h3>
                 <p>
                     API REST estilo red social desarrollada con Node.js y Express.
-                    Implementa gestión de usuarios, publicaciones, comentarios, seguidores y etiquetas.
-                    Incluye modelado relacional con Sequelize y SQLite, validación con Joi
+                    Implementa gestión de usuarios, publicaciones, comentarios y sistema de seguidores.
+                    Modelado relacional con Sequelize y SQLite, validaciones con Joi
                     y documentación interactiva con Swagger.
                 </p>
-                <a href="https://github.com/dylancotera" target="_blank">
-                    Ver repositorio en GitHub
+                <a class="button" href="https://github.com/dylancotera" target="_blank">
+                    Ver repositorio
                 </a>
             </article>
 
         </section>
 
-        <!-- CONTACTO -->
         <section>
             <h2>Contacto</h2>
             <p>Email: dylancotera@gmail.com</p>
@@ -90,7 +92,6 @@
 
     </main>
 
-    <!-- PIE -->
     <footer>
         <p>© 2026 Dylan Cotera</p>
     </footer>
