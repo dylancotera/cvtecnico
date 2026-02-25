@@ -1,99 +1,126 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV - Dylan Cotera</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV — Dylan Cotera</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+<div class="cv-wrapper">
 
-    <!-- ENCABEZADO -->
-    <header>
-        <h1>Dylan Cotera</h1>
-        <p class="subtitle">Desarrollador Backend JavaScript en formación</p>
-    </header>
+  <!-- ENCABEZADO -->
+  <header>
+    <h1>Dylan Cotera</h1>
+    <p class="subtitle">Desarrollador Full Stack en formación &nbsp;·&nbsp; Buenos Aires, Argentina</p>
+  </header>
 
-    <!-- CONTENIDO PRINCIPAL -->
-    <main>
+  <main>
 
-        <!-- PERFIL -->
-        <section>
-            <h2>Perfil</h2>
-            <p>
-                Estudiante de la Tecnicatura en Programación con enfoque en desarrollo Backend y proyección Full Stack.
-                Experiencia académica en construcción de APIs REST con Node.js, modelado de bases de datos relacionales
-                utilizando Sequelize y documentación con Swagger. Interesado en el desarrollo de software y arquitectura backend.
-            </p>
-        </section>
+    <!-- PERFIL -->
+    <section>
+      <h2>Perfil</h2>
+      <p class="perfil-text">
+        Estudiante avanzado de la Tecnicatura en Programación (UNaHur) con orientación hacia el desarrollo Backend
+        y proyección Full Stack. Actualmente en búsqueda de mi primera experiencia profesional en el área.
+      </p>
+    </section>
 
-        <!-- TECNOLOGÍAS -->
-        <section>
-            <h2>Tecnologías</h2>
+    <!-- FORMACIÓN -->
+    <section>
+      <h2>Formación</h2>
+      <div class="contact-list">
+        <div class="contact-item">
+          <span class="contact-label">Carrera</span>
+          <span class="contact-value">Licenciatura en Informática — UNaHur</span>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label">Título int.</span>
+          <span class="contact-value">Tecnicatura en Programación (2023 – 2026, en curso)</span>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label">Inglés</span>
+          <span class="contact-value">Básico — lectura técnica</span>
+        </div>
+      </div>
+    </section>
 
-            <h3>Backend</h3>
-            <ul>
-                <li>JavaScript</li>
-                <li>Node.js</li>
-                <li>Express</li>
-                <li>Sequelize</li>
-                <li>SQLite</li>
-            </ul>
+    <!-- TECNOLOGÍAS -->
+    <section>
+      <h2>Tecnologías</h2>
+      <div class="tech-grid">
 
-            <h3>Frontend</h3>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>React (nivel académico)</li>
-            </ul>
+        <div class="tech-group">
+          <h3>Backend</h3>
+          <ul>
+            <li>JavaScript</li>
+            <li>Node.js</li>
+            <li>Express</li>
+            <li>Sequelize</li>
+            <li>SQLite</li>
+          </ul>
+        </div>
 
-            <h3>Herramientas</h3>
-            <ul>
-                <li>Git</li>
-                <li>Swagger</li>
-                <li>Postman</li>
-                <li>Docker</li>
-            </ul>
-        </section>
+        <div class="tech-group">
+          <h3>Frontend</h3>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>React</li>
+          </ul>
+        </div>
 
-        <!-- PROYECTOS -->
-        <section>
-            <h2>Proyecto Destacado</h2>
+        <div class="tech-group">
+          <h3>Herramientas</h3>
+          <ul>
+            <li>Git</li>
+            <li>Swagger</li>
+            <li>Postman</li>
+            <li>Docker</li>
+          </ul>
+        </div>
 
-            <article>
-                <h3>UnaHur - Red Anti-Social</h3>
-                <p>
-                    API REST estilo red social desarrollada con Node.js y Express.
-                    Implementa gestión de usuarios, publicaciones, comentarios, seguidores y etiquetas.
-                    Incluye modelado relacional con Sequelize y SQLite, validación con Joi
-                    y documentación interactiva con Swagger.
-                </p>
-                <a href="https://github.com/dylancotera" target="_blank">
-                    Ver repositorio en GitHub
-                </a>
-            </article>
+      </div>
+    </section>
 
-        </section>
+    <!-- PROYECTOS -->
+    <section>
+      <h2>Proyecto Destacado</h2>
+      <article>
+        <h3>UnaHur — Red Anti-Social</h3>
+        <p>
+          API REST de estilo red social desarrollada con Node.js y Express como proyecto universitario.
+          Implementa gestión de usuarios, publicaciones, comentarios, seguidores y etiquetas,
+          con modelado relacional en Sequelize/SQLite, validación con Joi y documentación interactiva con Swagger.
+        </p>
+        <a class="repo-link" href="https://github.com/dylancotera/antiSocialRelacional" target="_blank">
+          github.com/dylancotera/antiSocialRelacional
+        </a>
+      </article>
+    </section>
 
-        <!-- CONTACTO -->
-        <section>
-            <h2>Contacto</h2>
-            <p>Email: dylancotera@gmail.com</p>
-            <p>
-                GitHub:
-                <a href="https://github.com/dylancotera" target="_blank">
-                    github.com/dylancotera
-                </a>
-            </p>
-        </section>
+    <!-- CONTACTO -->
+    <section>
+      <h2>Contacto</h2>
+      <div class="contact-list">
+        <div class="contact-item">
+          <span class="contact-label">Ubicación</span>
+          <span class="contact-value">Buenos Aires, Argentina</span>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label">Email</span>
+          <span class="contact-value"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="03677a6f626d606c7766716243646e626a6f2d606c6e">[email&#160;protected]</a></span>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label">GitHub</span>
+          <span class="contact-value">
+            <a href="https://github.com/dylancotera" target="_blank">github.com/dylancotera</a>
+          </span>
+        </div>
+      </div>
+    </section>
 
-    </main>
+  </main>
 
-    <!-- PIE -->
-    <footer>
-        <p>© 2026 Dylan Cotera</p>
-    </footer>
-
-</body>
-</html>
+  <!-- PIE -->
