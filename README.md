@@ -4,7 +4,7 @@ Este proyecto es un CV técnico desarrollado en HTML y CSS.
 
 ## Descripción
 
-Página web que presenta mi perfil profesional como desarrollador Full Stack en formación,
+Página web que presenta mi perfil profesional como desarrollador Full Stack, 
 incluyendo mi formación académica, tecnologías y proyectos destacados.
 
 ## Tecnologías utilizadas
@@ -17,7 +17,7 @@ incluyendo mi formación académica, tecnologías y proyectos destacados.
 - Presentación de perfil profesional
 - Sección de formación académica
 - Lista de tecnologías organizadas por área
-- Proyecto destacado con enlace al repositorio
+- Proyectos destacados con enlaces al sus repositorios
 - Información de contacto
 
 ## Ver online

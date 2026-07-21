@@ -12,38 +12,56 @@
 
   <!-- ENCABEZADO -->
   <header>
-    <h1>Dylan Cotera</h1>
-    <p class="subtitle">Desarrollador Full Stack en formación &nbsp;·&nbsp; Buenos Aires, Argentina</p>
+    <div class="header-left">
+      <h1>Dylan Cotera</h1>
+      <p class="subtitle">Desarrollador Full Stack &nbsp;·&nbsp; Buenos Aires, Argentina</p>
+    </div>
   </header>
 
   <main>
 
     <!-- PERFIL -->
     <section>
-      <h2>Perfil</h2>
+      <div class="section-header">
+        <h2>Perfil</h2>
+        <div class="section-line"></div>
+      </div>
       <p class="perfil-text">
-        Estudiante avanzado de la Tecnicatura en Programación (UNaHur) con orientación hacia el desarrollo Backend
-        y proyección Full Stack. Actualmente en búsqueda de mi primera experiencia profesional en el área.
+        Estudiante de la Licenciatura en Informática (UNaHur), con la Tecnicatura en Programación ya finalizada.
+        Foco en desarrollo Backend, con capacidad de trabajar el stack completo cuando el proyecto lo requiere.
+        Experiencia en construcción de APIs REST con Node.js y Express, y en interfaces con React.
+        Busco incorporarme a un equipo donde pueda seguir creciendo técnicamente y contribuir en proyectos reales.
       </p>
     </section>
 
-    <!-- FORMACIÓN -->
+    <!-- EDUCACIÓN -->
     <section>
-      <h2>Formación</h2>
+      <div class="section-header">
+        <h2>Educación</h2>
+        <div class="section-line"></div>
+      </div>
       <div class="contact-list">
         <div class="contact-item">
           <span class="contact-label">Carrera</span>
-          <span class="contact-value">Licenciatura en Informática — UNaHur</span>
+          <span class="contact-value">Licenciatura en Informática — UNaHur (2023 – en curso)</span>
         </div>
         <div class="contact-item">
           <span class="contact-label">Título int.</span>
-          <span class="contact-value">Tecnicatura en Programación (2023 – 2026, en curso)</span>
+          <span class="contact-value">Tecnicatura en Programación (2023 – 2026, finalizada)</span>
         </div>
+        <div class="contact-item">
+          <span class="contact-label">Inglés</span>
+          <span class="contact-value">Básico — lectura técnica</span>
+        </div>
+      </div>
     </section>
 
-    <!-- TECNOLOGÍAS -->
+    <!-- HABILIDADES -->
     <section>
-      <h2>Tecnologías</h2>
+      <div class="section-header">
+        <h2>Habilidades</h2>
+        <div class="section-line"></div>
+      </div>
       <div class="tech-grid">
 
         <div class="tech-group">
@@ -52,17 +70,27 @@
             <li>JavaScript</li>
             <li>Node.js</li>
             <li>Express</li>
-            <li>Sequelize</li>
+          </ul>
+        </div>
+
+        <div class="tech-group">
+          <h3>Bases de datos</h3>
+          <ul>
+            <li>SQL</li>
             <li>SQLite</li>
+            <li>MongoDB</li>
+            <li>Sequelize</li>
+            <li>Mongoose</li>
           </ul>
         </div>
 
         <div class="tech-group">
           <h3>Frontend</h3>
           <ul>
+            <li>React</li>
+            <li>TypeScript</li>
             <li>HTML</li>
             <li>CSS</li>
-            <li>React</li>
           </ul>
         </div>
 
@@ -70,34 +98,56 @@
           <h3>Herramientas</h3>
           <ul>
             <li>Git</li>
+            <li>Docker</li>
             <li>Swagger</li>
             <li>Postman</li>
-            <li>Docker</li>
           </ul>
         </div>
 
       </div>
     </section>
-
+    
     <!-- PROYECTOS -->
     <section>
-      <h2>Proyecto Destacado</h2>
-      <article>
-        <h3>UnaHur — Red Anti-Social</h3>
+      <div class="section-header">
+        <h2>Proyecto Destacado</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <article style="margin-bottom: 20px;">
+        <h3>UnaHur — Red Anti-Social (Full Stack)</h3>
         <p>
-          API REST de estilo red social desarrollada con Node.js y Express como proyecto universitario.
-          Implementa gestión de usuarios, publicaciones, comentarios, seguidores y etiquetas,
-          con modelado relacional en Sequelize/SQLite, validación con Joi y documentación interactiva con Swagger.
+          Red social desarrollada como proyecto universitario. Backend: API REST con Node.js, Express,
+          Sequelize y SQLite, validación con Joi y documentación con Swagger. Frontend: interfaz en React
+          y TypeScript, con autenticación, rutas protegidas y manejo de estado global.
         </p>
-        <a class="repo-link" href="https://github.com/dylancotera/antiSocialRelacional" target="_blank">
-          github.com/dylancotera/antiSocialRelacional
+        <a class="repo-link" href="https://github.com/dylancotera/antiSocial-backend" target="_blank">
+          github.com/dylancotera/antiSocial-backend
+        </a>
+        <br><br>
+        <a class="repo-link" href="https://github.com/dylancotera/antiSocial-frontend" target="_blank">
+          github.com/dylancotera/antiSocial-frontend
+        </a>
+      </article>
+
+      <article>
+        <h3>TecnoHur (Frontend)</h3>
+        <p>
+          E-commerce desarrollado en React como proyecto universitario. Catálogo de productos, filtros,
+          carrito de compras y checkout simulado, con manejo de estado global y diseño responsive.
+        </p>
+        <a class="repo-link" href="https://github.com/dylancotera/tecnoHur" target="_blank">
+          github.com/dylancotera/tecnoHur
         </a>
       </article>
     </section>
 
     <!-- CONTACTO -->
     <section>
-      <h2>Contacto</h2>
+      <div class="section-header">
+        <h2>Contacto</h2>
+        <div class="section-line"></div>
+      </div>
       <div class="contact-list">
         <div class="contact-item">
           <span class="contact-label">Ubicación</span>
@@ -105,7 +155,7 @@
         </div>
         <div class="contact-item">
           <span class="contact-label">Email</span>
-          <span class="contact-value">dylancotera@gmail.com</span>
+          <span class="contact-value"><a href="mailto:dylancotera@gmail.com">dylancotera@gmail.com</a></span>
         </div>
         <div class="contact-item">
           <span class="contact-label">GitHub</span>
@@ -119,3 +169,11 @@
   </main>
 
   <!-- PIE -->
+  <footer>
+    <span>© 2026 Dylan Cotera</span>
+    <span>CV · v3.0</span>
+  </footer>
+
+</div>
+</body>
+</html>
